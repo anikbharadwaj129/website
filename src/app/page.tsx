@@ -1,4 +1,4 @@
-import ThemeToggle from "./ThemeToggle";
+import Image from "next/image";
 
 export default function Page() {
   return (
@@ -26,10 +26,12 @@ export default function Page() {
       </a>
     </div>
   </div>
-  <img
+  <Image
     src="/Bharadwaj_Aniketh.jpg"
     alt="Aniketh Bharadwaj"
-    className="w-[200px] h-[200px] rounded-full object-cover object-top"
+    width={200}
+    height={200}
+    className="w-[220px] h-[220px] rounded-full object-cover object-top"
   />
 </section>
 
@@ -37,13 +39,13 @@ export default function Page() {
       <section id="description">
   <h2 className="text-2xl font-semibold mb-6 -mt-6 text-[#1c1c1c] underline">About Me</h2>
   <p className="mb-4 text-[#1c1c1c]">
-    Hey! I'm Aniketh Bharadwaj. I'm a Software Engineer focused on Systems, Test, and Automation Engineering.
+    Hey! I&apos;m Aniketh Bharadwaj. I&apos;m a Software Engineer focused on Systems, Test, and Automation Engineering.
   </p>
   <p className="mb-4 text-[#1c1c1c]">
-    I graduated with a Bachelor of Science in Electrical Engineering from Texas A&M University and am currently pursuing a Master of Science in Computer Science at Georgia Tech, specializing in Artificial Intelligence.
+    I graduated with a Bachelor of Science in Electrical Engineering from Texas A&amp;M University and am currently pursuing a Master of Science in Computer Science at Georgia Tech, specializing in Artificial Intelligence.
   </p>
   <p className="mb-4 text-[#1c1c1c]">
-    I'm passionate about System and Process automation, CI/CD pipelines, and increasing cost savings and efficiency through Software Engineering.
+    I&apos;m passionate about System and Process automation, CI/CD pipelines, and increasing cost savings and efficiency through Software Engineering.
   </p>
   <p className="mb-4 text-[#1c1c1c]">
     I currently work as a Software Test Engineer at <a href="https://www.kcnsc.doe.gov/" target="_blank" rel="noopener noreferrer" className="text-orange-600 underline hover:text-orange-800">Honeywell</a>, focusing on automating test processes and developing robust testing frameworks to ensure product quality and reliability.
